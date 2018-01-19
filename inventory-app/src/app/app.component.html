@@ -8,6 +8,8 @@
 <br/>
 
 <div class="inventory-app">
-  <h1>{{product.name}}</h1>
-  <span>{{prdouct.sku}}</span>
+  <products-list
+    [productList]="products"
+    (onProductSelected)="productWasSelected($event)">
+  </products-list>
 </div>
