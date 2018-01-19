@@ -3,7 +3,8 @@ import {Product} from '../product/product.model';
 
 @Component({
   selector: 'products-list',
-  templateUrl: './products-list.component.html'
+  templateUrl: './products-list.component.html',
+  styleUrls: ['./products-list.component.css']
 })
 
 export class ProductsListComponent {

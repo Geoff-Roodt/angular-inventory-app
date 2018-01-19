@@ -1,6 +1,9 @@
 <product-image [product]="product"></product-image>
-<div class="content">
+<div class="content center">
   <div class="header">{{product.name}}</div>
+  <div>
+    <product-display [price]="product.price"></product-display>
+  </div>
   <div class="meta">
     <div class="product-sku">SKU #{{product.sku}}</div>
   </div>
@@ -8,4 +11,3 @@
     <product-department [product]="product"></product-department>
   </div>
 </div>
-<product-display [price]="product.price"></product-display>
