@@ -8,8 +8,11 @@
 <br/>
 
 <div class="inventory-app">
+
+  <!-- Display our product list component, injecting our local Products list and hooking up the Product Selected event to respond when a product is selected-->
   <products-list
     [productList]="products"
     (onProductSelected)="productWasSelected($event)">
   </products-list>
+
 </div>

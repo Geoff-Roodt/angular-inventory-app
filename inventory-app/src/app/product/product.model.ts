@@ -1,3 +1,5 @@
+// Our model holds all of the required properties
+
 export class Product{
   sku:string;
   name:string;

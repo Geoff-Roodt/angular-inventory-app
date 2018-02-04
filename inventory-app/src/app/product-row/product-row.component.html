@@ -1,4 +1,6 @@
+<!-- Display our image and pass in the product as a parameter -->
 <product-image [product]="product"></product-image>
+
 <div class="content center">
   <div class="header">{{product.name}}</div>
   <div>
@@ -8,6 +10,7 @@
     <div class="product-sku">SKU #{{product.sku}}</div>
   </div>
   <div class="description">
+    <!-- Print the product department -->
     <product-department [product]="product"></product-department>
   </div>
 </div>

@@ -7,6 +7,8 @@ import {Product} from '../product/product.model';
   styleUrls: ['./product-image.component.css']
 })
 export class ProductImageComponent {
+  // Expect the product to be passed in as a parameter to our component
+  // Dynamically add styling to our component
   @Input() product:Product;
   @HostBinding('attr.class') cssClass = 'ui small large';
 
